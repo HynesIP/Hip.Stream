@@ -1,0 +1,20 @@
+{
+	"name": "@rocket.chat/license",
+	"version": "0.0.0",
+	"private": true,
+	"description": "FOSS stub for license module",
+	"main": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"dev": "tsc -p tsconfig.json --watch --preserveWatchOutput"
+	},
+	"dependencies": {
+		"@rocket.chat/core-typings": "workspace:^",
+		"@rocket.chat/emitter": "workspace:^"
+	},
+	"devDependencies": {
+		"@types/node": "~22.16.1",
+		"typescript": "~5.9.2"
+	}
+}
