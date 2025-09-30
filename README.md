@@ -6,6 +6,8 @@
   The ultimate Free Open Source Solution for team communications
 </h1>
 
+> **Note**: This is a FOSS (Free and Open Source Software) build of Rocket.Chat with all enterprise/paywall features removed. All features are available without license restrictions.
+
 <p align="center">
   <img src="https://img.shields.io/github/v/release/RocketChat/Rocket.Chat?label=version">
   <img src="https://img.shields.io/github/actions/workflow/status/RocketChat/Rocket.Chat/build_and_test.yml">

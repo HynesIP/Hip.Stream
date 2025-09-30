@@ -1,7 +1,7 @@
 {
-	"name": "rocket.chat",
-	"version": "7.10.0",
-	"description": "Rocket.Chat Monorepo",
+	"name": "hip.stream",
+	"version": "7.10.0-foss",
+	"description": "Hip.Stream - FOSS build without enterprise features",
 	"main": "index.js",
 	"private": true,
 	"scripts": {
@@ -14,8 +14,7 @@
 		"dsv": "turbo run dsv --env-mode=loose --filter=@rocket.chat/meteor...",
 		"lint": "turbo run lint",
 		"storybook": "yarn workspace @rocket.chat/meteor run storybook",
-		"fuselage": "./fuselage.sh",
-		"fossify": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' ts-node scripts/fossify.ts"
+		"fuselage": "./fuselage.sh"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.27.11",
@@ -32,14 +31,14 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RocketChat/Rocket.Chat.git"
+		"url": "git+https://github.com/HynesIP/Hip.Stream.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/RocketChat/Rocket.Chat/issues"
+		"url": "https://github.com/HynesIP/Hip.Stream/issues"
 	},
-	"homepage": "https://github.com/RocketChat/Rocket.Chat#readme",
+	"homepage": "https://github.com/HynesIP/Hip.Stream#readme",
 	"engines": {
 		"yarn": "4.9.2",
 		"node": "22.16.0"
